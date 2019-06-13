@@ -137,10 +137,6 @@ body {
 }
 
 
-.article-img:nth-child(1) {
-  margin-left: 0;
-}
-
 .article-img:nth-child(3n+1) {
   margin-left: 0;
 }
