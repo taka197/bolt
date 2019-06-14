@@ -276,7 +276,6 @@
 
   .section-text {
     width: auto;
-    margin-top: 35px;
   }
 
   .section-img {
@@ -290,6 +289,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
   }
 
   .article-img {
@@ -331,9 +331,7 @@
   /*OUR SKILLS*/
   .circle {
     margin-top: 40px;
-    display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .circle-img {
@@ -348,13 +346,14 @@
 }
 
 /*SP*/
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
   .inner {
     width: 97%;
   }
 
   .contact-form {
     display: none;
+    float: none;
   }
 
   .humberger {
@@ -377,7 +376,6 @@
 
   .theme-text {
     font-size: 30px;
-    font-size: 30px;
   }
 
   /*What can we do?*/
@@ -392,7 +390,6 @@
 
   .section-text {
     width: auto;
-    margin-top: 35px;
   }
 
   .section-img {
@@ -422,9 +419,6 @@
   }
 
   .article-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-top: 80px;
     margin-left: 0;
   }
@@ -447,9 +441,7 @@
   /*OUR SKILLS*/
   .circle {
     margin-top: 40px;
-    display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .circle-img {
@@ -474,8 +466,7 @@
   }
 
   .nav-btn {
-    width: 185px;
-    padding: 20px 0;
+    width: 100%;
   }
 
   .nav-btn:hover {
